@@ -26,7 +26,7 @@ class Consumer(multiprocessing.Process):
     def __init__(self):
         multiprocessing.Process.__init__(self)
         self.stop_event = multiprocessing.Event()
-        self.eap = eapi.EAPI(url='https://500238.erply.com/api/',clientCode='500238',username='balodhi@gmail.com',password='testpassword123!@#',sslCACertPath=None)
+        self.eap = eapi.EAPI(url='https://CLIENTCODE.erply.com/api/',clientCode='CLIENTCODE',username='USERNAME',password='PASSWORD',sslCACertPath=None)
         
     def stop(self):
         self.stop_event.set()
