@@ -6,6 +6,7 @@ Consumer receives the product from producer and use erply.com api to add the pro
 # Packages Required
 
 pip install kafka-python
+
 pip install requests
 
 # Running
@@ -21,5 +22,4 @@ python ktest.py
 # Note
 1. Apache kafka must be configured and running before running the python script.
 2. ubuntu may require the change the permission of the script. In that case use chmod +x ktest.py 
-3. 
 
